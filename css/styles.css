@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #000;
   margin: 0;
   font-family: 'Oswald', sans-serif;
 }
@@ -97,5 +97,13 @@ ul{
 	flex-basis: auto;
 }
 .B{
-  width: 250px;
+  width: 260px;
+}
+table{
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
 }
