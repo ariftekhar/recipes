@@ -97,19 +97,8 @@ ul{
 	justify-content: center;
 	flex-basis: auto;
 }
-.B{
-  width: 260px;
-  height: 450px;
-}
-table a {
-  text-decoration: none;
-  display: block;
-  position: relative;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-table a:hover {width: 100%;
+p{
   color: #868686;
+  text-align: center;
+  font-size: 48px;
 }
