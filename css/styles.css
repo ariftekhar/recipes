@@ -1,7 +1,7 @@
 body {
   background-color: black;
   margin: 0;
-  font-style: 'Nexa Bold';
+  font-family: 'Oswald', sans-serif;
 }
 header {
   padding: 20px 0;
@@ -10,9 +10,6 @@ header {
   padding: 0 20px;
   max-width: 800px;
   margin: 0 auto;
-}
-.container:hover{
-	background-color: grey;
 }
 .logo-box {
   float: left;
@@ -78,4 +75,27 @@ nav li {
 }
 nav li:hover {background: rgba(0,0,0,.1);}
 nav a:after {content: none;}
+}
+hr{
+   background-color: none;
+   border-color: grey;
+   border-width: 2px;
+   border-style: solid;
+   max-width: 836px;
+}
+.main{
+	max-width: 800px;
+	padding: 20px;
+	margin: 0 auto;
+}
+ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	flex-basis: auto;
+}
+.B{
+  width: 250px;
 }
